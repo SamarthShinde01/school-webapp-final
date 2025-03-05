@@ -1,26 +1,40 @@
-# Lama Dev School Management Dashboard
+# 🎓 School Management Application
 
-## Getting Started
+A **full-stack School Management Application** designed to streamline academic administration with **four user roles**: **Admin, Teacher, Student, and Parent**. Each role has a **dedicated dashboard** with role-specific features and limitations.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 👑 Admin Dashboard
+- **Analytics & Charts** for **total students, attendance, and expenses**.
+- **Event Calendar** for **announcements and school events**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👨‍🏫 Teacher Dashboard
+- **Class Schedule** and **lesson plans**.
+- **Manage assignments, exams, and results**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🎓 Student Dashboard
+- **View class schedules, assignments, and exam details**.
+- **Check results and attendance records**.
 
-## Learn More
+### 👨‍👩‍👦 Parent Dashboard
+- **Monitor children's schedules, exams, results, and attendance**.
+- Stay updated on academic progress.
 
-To learn more about Next.js, take a look at the following resources:
+### 🛠️ Additional Functionalities
+- **Role-based route protection** using **Next.js Middleware**.
+- **Manage classes, lessons, exams, assignments, and results** for each **teacher and student**.
 
-- [Lama Dev Youtube Channel](https://youtube.com/lamadev) 
-- [Next.js](https://nextjs.org/learn)
+## 🛠️ Tech Stack
+
+### Frontend
+- **Next.js** with **TypeScript** for a robust, scalable UI.
+- **Clerk** for secure **authentication**.
+
+### Backend
+- **PostgreSQL** with **Prisma ORM** for efficient database management.
+- **Next.js Middleware** for route protection based on user roles.
+
+## 📦 Deployment & Security
+- **Authentication:** Secured with **Clerk**.
+- **Database:** Managed with **PostgreSQL & Prisma ORM**.
+- **Route Protection:** Handled using **Next.js Middleware**.
